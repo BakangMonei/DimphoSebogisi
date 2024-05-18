@@ -7,6 +7,8 @@ import os
 import requests
 import pycountry
 from datetime import datetime
+import os
+
 
 # Function to log navigation events
 def log_navigation(ip_address, country, page, main_interest, device, additional_info=""):
@@ -225,6 +227,19 @@ elif page == "Dashboard":
     if analysis_results is not None:
         analysis_results.to_csv("analysis.csv")
 
+# elif page == "Upload CSV":
+#     # Create the CSV upload functionality
+#     st.header("Upload CSV")
+#     uploaded_file = st.file_uploader("Select a CSV file", type=["csv"])
+#     if uploaded_file:
+#         df = pd.read_csv(uploaded_file)
+#         st.write(df.head())
+
+# Create a folder to store results if it doesn't exist
+results_folder = "results"
+if not os.path.exists(results_folder):
+    os.makedirs(results_folder)
+
 elif page == "Upload CSV":
     # Create the CSV upload functionality
     st.header("Upload CSV")
@@ -232,6 +247,27 @@ elif page == "Upload CSV":
     if uploaded_file:
         df = pd.read_csv(uploaded_file)
         st.write(df.head())
+        
+        # Perform analysis
+        # Example analysis: Count occurrences of each sport
+        analysis_df = df.groupby("Sports").size().reset_index(name="Count")
+        
+        # Visualize analysis results
+        st.subheader("Analysis Results")
+        st.write(analysis_df)
+        
+        # Generate diagram (example: bar chart)
+        fig = px.bar(analysis_df, x="Sports", y="Count", title="Occurrences of Each Sport")
+        st.plotly_chart(fig, use_container_width=True)
+        
+        # Save analyzed data to CSV
+        if uploaded_file is not None:
+            file_name = uploaded_file.name.split(".")[0]  # Extract file name without extension
+            analyzed_file_name = f"{file_name}_analyzed.csv"
+            analyzed_file_path = os.path.join(results_folder, analyzed_file_name)
+            analysis_df.to_csv(analyzed_file_path, index=False)
+            st.success(f"Analysis results saved to {analyzed_file_path}")
+
 
 elif page == "Feedback":
     st.header("User Feedback")

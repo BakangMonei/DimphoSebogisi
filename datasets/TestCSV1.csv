@@ -1,0 +1,6 @@
+Timestamps,IP address,Country,Athlete names,Sports,Age,Gender,Nationality,Match or sport event dates,Outcomes,Medals,Ranks,Stadiums,Athlete Height,Athlete weight,Date of competition
+2024-05-20T10:00:00,192.168.1.1,USA,Athlete_1,Swimming,25,Male,USA,2024-05-20T10:00:00,Win,Gold,3,Stadium A,1.75,70,2024-05-20T10:00:00
+2024-05-20T10:05:00,192.168.1.2,China,Athlete_2,Athletics,30,Female,China,2024-05-20T10:05:00,Lose,None,7,Stadium B,1.68,60,2024-05-20T10:05:00
+2024-05-20T10:10:00,192.168.1.3,India,Athlete_3,Gymnastics,22,Male,India,2024-05-20T10:10:00,Draw,Silver,5,Stadium C,1.80,75,2024-05-20T10:10:00
+2024-05-20T10:15:00,192.168.1.4,Russia,Athlete_4,Soccer,28,Female,Russia,2024-05-20T10:15:00,Win,Bronze,2,Stadium A,1.72,65,2024-05-20T10:15:00
+2024-05-20T10:20:00,192.168.1.5,Germany,Athlete_5,Tennis,35,Male,Germany,2024-05-20T10:20:00,Lose,None,8,Stadium B,1.85,80,2024-05-20T10:20:00
