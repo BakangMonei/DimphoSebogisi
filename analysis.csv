@@ -1,82 +1,100 @@
-Country,0
-Algeria,1
-Andorra,1
-Angola,1
-Antarctica,1
-Aruba,1
-"Bolivia, Plurinational State of",1
-Brunei Darussalam,1
-Burkina Faso,1
-Cambodia,1
-Canada,2
-Chile,2
-Croatia,1
-Cuba,2
-Curaçao,1
-Cyprus,1
-Ecuador,1
-El Salvador,1
-Eswatini,1
-Faroe Islands,1
-Fiji,2
-French Guiana,1
-Ghana,1
-Gibraltar,1
-Greece,1
-Greenland,2
-Guam,3
-Guinea-Bissau,1
-Haiti,1
-Honduras,1
-Hungary,2
-Iceland,2
-Indonesia,1
-Jamaica,1
-Japan,1
-Jordan,1
-"Korea, Democratic People's Republic of",2
-"Korea, Republic of",2
-Lesotho,1
-Liberia,1
-Libya,1
-Macao,1
-Madagascar,2
-Maldives,1
-Martinique,1
-Mayotte,2
-"Moldova, Republic of",1
-Monaco,1
-Montserrat,2
-Mozambique,1
-Myanmar,1
-Namibia,1
-Nauru,1
-Nepal,1
-Nigeria,1
-Norfolk Island,1
-Palau,1
-Panama,1
-Papua New Guinea,1
-Pitcairn,1
-Russian Federation,1
-Rwanda,1
-Saint Martin (French part),3
-Saint Vincent and the Grenadines,2
-Samoa,1
-Saudi Arabia,2
-Senegal,1
-Seychelles,1
-Sint Maarten (Dutch part),1
-Somalia,1
-South Africa,1
-South Georgia and the South Sandwich Islands,1
-Spain,1
-Sweden,1
-Thailand,1
-Tonga,1
-United Arab Emirates,1
-Uruguay,1
-Uzbekistan,1
-Viet Nam,1
-Zambia,2
-Åland Islands,1
+Country,Gender,Sports,0
+Algeria,Female,Gymnastics,1
+Andorra,Female,Swimming,1
+Angola,Male,Athletics,1
+Antarctica,Female,Swimming,1
+Aruba,Male,Swimming,1
+"Bolivia, Plurinational State of",Male,Athletics,1
+Brunei Darussalam,Female,Athletics,1
+Burkina Faso,Female,Athletics,1
+Cambodia,Female,Athletics,1
+Canada,Female,Gymnastics,1
+Canada,Female,Soccer,1
+Chile,Male,Athletics,1
+Chile,Male,Soccer,1
+Croatia,Female,Tennis,1
+Cuba,Female,Gymnastics,1
+Cuba,Male,Gymnastics,1
+Curaçao,Male,Soccer,1
+Cyprus,Male,Athletics,1
+Ecuador,Male,Tennis,1
+El Salvador,Male,Soccer,1
+Eswatini,Male,Athletics,1
+Faroe Islands,Female,Swimming,1
+Fiji,Female,Tennis,1
+Fiji,Male,Swimming,1
+French Guiana,Male,Soccer,1
+Ghana,Male,Swimming,1
+Gibraltar,Male,Swimming,1
+Greece,Male,Athletics,1
+Greenland,Female,Soccer,1
+Greenland,Female,Swimming,1
+Guam,Female,Gymnastics,1
+Guam,Female,Swimming,2
+Guinea-Bissau,Female,Swimming,1
+Haiti,Female,Swimming,1
+Honduras,Male,Athletics,1
+Hungary,Female,Athletics,1
+Hungary,Female,Gymnastics,1
+Iceland,Female,Gymnastics,1
+Iceland,Male,Tennis,1
+Indonesia,Male,Gymnastics,1
+Jamaica,Male,Swimming,1
+Japan,Female,Tennis,1
+Jordan,Female,Swimming,1
+"Korea, Democratic People's Republic of",Female,Tennis,1
+"Korea, Democratic People's Republic of",Male,Athletics,1
+"Korea, Republic of",Female,Tennis,1
+"Korea, Republic of",Male,Swimming,1
+Lesotho,Male,Athletics,1
+Liberia,Male,Athletics,1
+Libya,Male,Athletics,1
+Macao,Male,Tennis,1
+Madagascar,Female,Athletics,1
+Madagascar,Female,Soccer,1
+Maldives,Female,Soccer,1
+Martinique,Male,Athletics,1
+Mayotte,Male,Athletics,1
+Mayotte,Male,Tennis,1
+"Moldova, Republic of",Male,Soccer,1
+Monaco,Male,Tennis,1
+Montserrat,Female,Athletics,1
+Montserrat,Male,Gymnastics,1
+Mozambique,Female,Tennis,1
+Myanmar,Female,Tennis,1
+Namibia,Female,Athletics,1
+Nauru,Male,Tennis,1
+Nepal,Female,Tennis,1
+Nigeria,Female,Soccer,1
+Norfolk Island,Male,Athletics,1
+Palau,Female,Swimming,1
+Panama,Female,Gymnastics,1
+Papua New Guinea,Male,Gymnastics,1
+Pitcairn,Female,Tennis,1
+Russian Federation,Female,Soccer,1
+Rwanda,Female,Gymnastics,1
+Saint Martin (French part),Female,Soccer,1
+Saint Martin (French part),Female,Swimming,1
+Saint Martin (French part),Male,Tennis,1
+Saint Vincent and the Grenadines,Female,Soccer,1
+Saint Vincent and the Grenadines,Female,Tennis,1
+Samoa,Male,Tennis,1
+Saudi Arabia,Female,Soccer,1
+Saudi Arabia,Female,Swimming,1
+Senegal,Male,Soccer,1
+Seychelles,Female,Tennis,1
+Sint Maarten (Dutch part),Male,Tennis,1
+Somalia,Female,Tennis,1
+South Africa,Male,Swimming,1
+South Georgia and the South Sandwich Islands,Male,Tennis,1
+Spain,Female,Gymnastics,1
+Sweden,Male,Swimming,1
+Thailand,Male,Tennis,1
+Tonga,Female,Tennis,1
+United Arab Emirates,Male,Athletics,1
+Uruguay,Female,Athletics,1
+Uzbekistan,Female,Athletics,1
+Viet Nam,Male,Gymnastics,1
+Zambia,Female,Gymnastics,1
+Zambia,Male,Tennis,1
+Åland Islands,Male,Tennis,1
