@@ -227,13 +227,6 @@ elif page == "Dashboard":
     if analysis_results is not None:
         analysis_results.to_csv("analysis.csv")
 
-# elif page == "Upload CSV":
-#     # Create the CSV upload functionality
-#     st.header("Upload CSV")
-#     uploaded_file = st.file_uploader("Select a CSV file", type=["csv"])
-#     if uploaded_file:
-#         df = pd.read_csv(uploaded_file)
-#         st.write(df.head())
 
 # Create a folder to store results if it doesn't exist
 results_folder = "results"
