@@ -7,8 +7,7 @@ import os
 import requests
 import pycountry
 from datetime import datetime
-import os
-
+import time
 
 # Function to log navigation events
 def log_navigation(ip_address, country, page, main_interest, device, additional_info=""):
@@ -123,7 +122,7 @@ def logout():
     st.session_state['username'] = ""
 
 # Function to generate data
-@st.cache_data
+# Function to generate data
 def generate_data(n_rows):
     data = []
     for _ in range(n_rows):
@@ -136,7 +135,7 @@ def generate_data(n_rows):
             "Age": random.randint(18, 40),
             "Gender": random.choice(["Male", "Female"]),
             "Nationality": random.choice([country.name for country in pycountry.countries]),
-            "Match or sport event dates": datetime.now().isoformat(),
+            "Match or sport event dates":datetime.now().isoformat(),
             "Outcomes": random.choice(["Win", "Lose", "Draw"]),
             "Medals": random.choice(["Gold", "Silver", "Bronze", "None"]),
             "Ranks": random.randint(1, 10),
@@ -148,13 +147,31 @@ def generate_data(n_rows):
         data.append(row)
     return pd.DataFrame(data)
 
-data = generate_data(100)
+# Create a folder to store results if it doesn't exist
+results_folder = "results"
+if not os.path.exists(results_folder):
+    os.makedirs(results_folder)
+
+csv_file_path = os.path.join(results_folder, "main_dataset.csv")
+
+# Check if the CSV file exists, and append the new data if it does
+if os.path.exists(csv_file_path):
+    existing_data = pd.read_csv(csv_file_path)
+    new_data = generate_data(10)
+    updated_data = pd.concat([existing_data, new_data], ignore_index=True)
+    updated_data.to_csv(csv_file_path, index=False)
+else:
+    # If the CSV file doesn't exist, create it and save the new data
+    generate_data(10).to_csv(csv_file_path, index=False)
 
 # Create the Streamlit app
 st.title("Analytical Tool")
 
 # Create the sidebar
 st.sidebar.title("Navigation")
+
+
+
 if 'logged_in' not in st.session_state:
     st.session_state['logged_in'] = False
     st.session_state['username'] = ""
@@ -201,6 +218,10 @@ elif page == "Dashboard":
     sport_of_interest = st.selectbox("Select a sport", ["Swimming", "Athletics", "Gymnastics", "Soccer", "Tennis"])
     continent = st.selectbox("Select a continent", ["Asia", "Europe", "Africa", "North America", "South America"])
     country = st.selectbox("Select a country", [country.name for country in pycountry.countries])
+
+    # Load data from CSV file
+    csv_file_path = os.path.join(results_folder, "main_dataset.csv")
+    data = pd.read_csv(csv_file_path)
 
     # Create the visualizations
     fig = px.bar(data, x="Country", y="Ranks", color="Sports", barmode="group")
