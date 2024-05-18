@@ -272,4 +272,33 @@ elif page == "Upload CSV":
 elif page == "Feedback":
     st.header("User Feedback")
     st.write("Please provide your feedback:")
-    feedback_text = st.text_area
+    feedback_text = st.text_area("Feedback")
+
+    if st.button("Submit Feedback"):
+        # Get current timestamp
+        timestamp = datetime.now().isoformat()
+
+        # Prepare feedback data
+        feedback_data = {
+            "Timestamp": timestamp,
+            "Feedback": feedback_text
+        }
+
+        # Save feedback to CSV
+        feedback_file = "feedback.csv"
+        feedback_exists = os.path.exists(feedback_file)
+        with open(feedback_file, mode='a', newline='') as file:
+            writer = csv.DictWriter(file, fieldnames=["Timestamp", "Feedback"])
+            if not feedback_exists:
+                writer.writeheader()
+            writer.writerow(feedback_data)
+
+        st.success("Thank you for your feedback!")
+
+    # Display submitted feedback below
+    st.subheader("Submitted Feedback")
+    if os.path.exists(feedback_file):
+        with open(feedback_file, mode='r', newline='') as file:
+            reader = csv.DictReader(file)
+            feedbacks = [f"Timestamp: {row['Timestamp']}\nFeedback: {row['Feedback']}\n\n" for row in reader]
+        st.text_area("Feedbacks", "\n".join(feedbacks))
