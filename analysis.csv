@@ -1,240 +1,128 @@
-Country,Sports,0
-Algeria,Gymnastics,1
-Andorra,Soccer,1
-Anguilla,Gymnastics,3
-Antigua and Barbuda,Gymnastics,7283
-Antigua and Barbuda,Swimming,1
-Argentina,Soccer,3
-Argentina,Swimming,4491
-Armenia,Tennis,3
-Aruba,Soccer,1
-Aruba,Tennis,3
-Austria,Tennis,3
-Bahamas,Athletics,3
-Bangladesh,Gymnastics,1
-Barbados,Swimming,1
-Belarus,Athletics,1
-Belarus,Swimming,1
-Belgium,Gymnastics,1
-Bhutan,Tennis,1
-Bosnia and Herzegovina,Soccer,3
-Bosnia and Herzegovina,Swimming,3
-Botswana,Soccer,1
-British Indian Ocean Territory,Athletics,4
-British Indian Ocean Territory,Gymnastics,1
-Bronze,Stadium C,1
-Bulgaria,Athletics,1
-Bulgaria,Tennis,1
-Burundi,Gymnastics,3
-Burundi,Soccer,1
-Cabo Verde,Athletics,3
-Cabo Verde,Swimming,4
-Cambodia,Soccer,1
-Cameroon,Soccer,1
-Cameroon,Swimming,1
-Christmas Island,Athletics,3
-Christmas Island,Swimming,6
-Cocos (Keeling) Islands,Swimming,1
-Colombia,Gymnastics,1
-Comoros,Gymnastics,3
-Comoros,Soccer,3
-Comoros,Tennis,1
-Congo,Athletics,4489
-Congo,Soccer,1
-Croatia,Athletics,1
-Czechia,Athletics,1
-Côte d'Ivoire,Gymnastics,3
-Côte d'Ivoire,Soccer,1
-Denmark,Swimming,3
-Djibouti,Athletics,1
-Djibouti,Gymnastics,1
-Djibouti,Soccer,1
-Dominica,Athletics,1
-Dominica,Soccer,1
-Dominican Republic,Athletics,1
-Ecuador,Gymnastics,1
-Ecuador,Tennis,1
-El Salvador,Gymnastics,3
-Equatorial Guinea,Swimming,3
-Eritrea,Gymnastics,1
-Estonia,Tennis,1
-Eswatini,Athletics,2795
-Falkland Islands (Malvinas),Athletics,3
-France,Soccer,3
-France,Swimming,3
-French Guiana,Soccer,3
-French Southern Territories,Athletics,3
-French Southern Territories,Gymnastics,1
-Gabon,Athletics,3
-Georgia,Athletics,1
-Georgia,Gymnastics,4488
-Georgia,Soccer,1
-Germany,Athletics,4
-Germany,Soccer,3
-Gibraltar,Athletics,3
-Greece,Swimming,4
-Greenland,Gymnastics,3
-Greenland,Soccer,3
-Greenland,Swimming,1
-Grenada,Gymnastics,1
-Grenada,Soccer,2797
-Grenada,Swimming,1
-Guadeloupe,Gymnastics,3
-Guadeloupe,Soccer,1
-Guam,Soccer,3
-Guam,Swimming,4
-Guam,Tennis,1
-Guatemala,Athletics,3
-Guinea,Athletics,3
-Guinea-Bissau,Gymnastics,1
-Guinea-Bissau,Swimming,1
-Haiti,Tennis,3
-Honduras,Athletics,5
-Honduras,Gymnastics,3
-Hong Kong,Athletics,3
-Hungary,Athletics,1
-Hungary,Gymnastics,1
-Indonesia,Athletics,9
-"Iran, Islamic Republic of",Tennis,3
-Iraq,Swimming,1
-Ireland,Athletics,3
-Ireland,Swimming,3
-Israel,Gymnastics,1
-Jamaica,Gymnastics,6
-Japan,Tennis,1
-Jersey,Swimming,1
-Jordan,Soccer,3
-Kazakhstan,Athletics,3
-Kenya,Gymnastics,3
-Kenya,Tennis,1
-Kiribati,Soccer,3
-"Korea, Democratic People's Republic of",Athletics,3
-"Korea, Republic of",Soccer,4488
-Lao People's Democratic Republic,Swimming,3
-Lao People's Democratic Republic,Tennis,3
-Latvia,Gymnastics,3
-Liberia,Tennis,3
-Libya,Gymnastics,1
-Libya,Tennis,1
-Lithuania,Tennis,3
-Macao,Gymnastics,1
-Madagascar,Athletics,3
-Malawi,Soccer,4488
-Maldives,Swimming,1
-Malta,Swimming,1
-Mauritania,Athletics,4488
-Mauritius,Athletics,1
-Mexico,Soccer,1
-Mexico,Tennis,1
-Monaco,Soccer,1
-Monaco,Tennis,1
-Mongolia,Athletics,1
-Mongolia,Tennis,1
-Morocco,Swimming,1
-Morocco,Tennis,1
-Mozambique,Swimming,1
-Myanmar,Athletics,1
-Nauru,Tennis,1
-Nepal,Swimming,3
-Nepal,Tennis,1
-New Caledonia,Tennis,1
-Nicaragua,Athletics,3
-Nicaragua,Gymnastics,9
-Niger,Tennis,1
-Niue,Soccer,1
-Niue,Tennis,3
-Norfolk Island,Soccer,1
-North Macedonia,Soccer,1
-Norway,Tennis,3
-Oman,Athletics,1
-Palau,Swimming,3
-"Palestine, State of",Soccer,2
-Panama,Swimming,1
-Papua New Guinea,Gymnastics,3
-Peru,Gymnastics,3
-Peru,Swimming,6
-Philippines,Soccer,1
-Poland,Soccer,2795
-Poland,Swimming,3
-Portugal,Tennis,1
-Puerto Rico,Athletics,1
-Puerto Rico,Tennis,1
-Qatar,Gymnastics,1
-Romania,Soccer,1
-Russian Federation,Athletics,1
-Russian Federation,Soccer,1
-Russian Federation,Swimming,4488
-Rwanda,Gymnastics,1
-Rwanda,Swimming,1
-Rwanda,Tennis,1
-Saint Barthélemy,Tennis,1
-"Saint Helena, Ascension and Tristan da Cunha",Soccer,1
-Saint Kitts and Nevis,Soccer,1
-Saint Kitts and Nevis,Swimming,3
-Saint Lucia,Tennis,3
-Saint Pierre and Miquelon,Gymnastics,1
-Saint Pierre and Miquelon,Tennis,1
-Saint Vincent and the Grenadines,Tennis,1
-San Marino,Gymnastics,3
-Sao Tome and Principe,Soccer,4488
-Saudi Arabia,Athletics,3
-Senegal,Athletics,1
-Senegal,Tennis,1
-Serbia,Soccer,2
-Seychelles,Athletics,1
-Seychelles,Gymnastics,2795
-Seychelles,Swimming,3
-Singapore,Tennis,3
-Slovenia,Soccer,3
-Somalia,Tennis,3
-South Africa,Athletics,1
-South Africa,Soccer,3
-South Sudan,Gymnastics,1
-Spain,Swimming,3
-Sri Lanka,Soccer,4
-Sri Lanka,Swimming,3
-Sudan,Gymnastics,1
-Sudan,Soccer,1
-Suriname,Athletics,3
-Suriname,Gymnastics,4488
-Svalbard and Jan Mayen,Athletics,1
-Svalbard and Jan Mayen,Gymnastics,3
-Svalbard and Jan Mayen,Swimming,3
-Sweden,Gymnastics,3
-Switzerland,Gymnastics,1
-Switzerland,Tennis,3
-Syrian Arab Republic,Athletics,3
-Syrian Arab Republic,Gymnastics,9
-"Taiwan, Province of China",Athletics,1
-Tajikistan,Soccer,1
-Tajikistan,Tennis,2
-Timor-Leste,Tennis,1
-Tokelau,Athletics,1
-Tokelau,Gymnastics,4488
-Tonga,Athletics,1
-Tonga,Swimming,4488
-Trinidad and Tobago,Swimming,1
-Tunisia,Gymnastics,12
-Turkmenistan,Gymnastics,4
-Turkmenistan,Tennis,3
-Tuvalu,Tennis,3
-Türkiye,Tennis,3
-Uganda,Athletics,1
-Uganda,Tennis,3
-United Arab Emirates,Athletics,3
-United Arab Emirates,Gymnastics,3
-United States,Soccer,1
-United States,Swimming,3
-Uruguay,Swimming,9
-Vanuatu,Tennis,1
-"Venezuela, Bolivarian Republic of",Swimming,3
-"Venezuela, Bolivarian Republic of",Tennis,3
-Viet Nam,Soccer,1
-"Virgin Islands, British",Tennis,1
-"Virgin Islands, U.S.",Tennis,1
-Yemen,Athletics,4488
-Zambia,Swimming,1
-Zimbabwe,Gymnastics,3
-Åland Islands,Athletics,3
-Åland Islands,Soccer,1
-Åland Islands,Swimming,1
+Country,0
+Andorra,2
+Anguilla,3
+Antigua and Barbuda,5245
+Argentina,2456
+Armenia,3
+Aruba,3
+Austria,3
+Bahamas,3
+Bahrain,1
+Belarus,1
+Bhutan,1
+Bosnia and Herzegovina,6
+Botswana,1
+British Indian Ocean Territory,5
+Brunei Darussalam,1
+Bulgaria,1
+Burundi,4
+Cabo Verde,6
+Christmas Island,9
+Comoros,6
+Congo,2450
+"Congo, The Democratic Republic of the",1
+Croatia,1
+Cuba,1
+Côte d'Ivoire,3
+Denmark,3
+Djibouti,1
+El Salvador,3
+Equatorial Guinea,3
+Eswatini,2795
+Falkland Islands (Malvinas),3
+Fiji,1
+France,6
+French Guiana,3
+French Southern Territories,3
+Gabon,3
+Georgia,2450
+Germany,6
+Gibraltar,3
+Greece,4
+Greenland,6
+Grenada,2796
+Guadeloupe,4
+Guam,7
+Guatemala,3
+Guinea,3
+Haiti,3
+Honduras,7
+Hong Kong,3
+Indonesia,9
+"Iran, Islamic Republic of",3
+Ireland,6
+Jamaica,6
+Jordan,3
+Kazakhstan,3
+Kenya,3
+Kiribati,3
+"Korea, Democratic People's Republic of",3
+"Korea, Republic of",2449
+Lao People's Democratic Republic,6
+Latvia,3
+Lesotho,1
+Liberia,4
+Lithuania,3
+Madagascar,3
+Malawi,2450
+Maldives,1
+Malta,1
+Mauritania,2449
+Mongolia,1
+Mozambique,1
+Namibia,1
+Nepal,3
+New Zealand,1
+Nicaragua,12
+Niue,3
+North Macedonia,1
+Norway,3
+Oman,1
+Palau,3
+"Palestine, State of",3
+Papua New Guinea,4
+Peru,9
+Poland,2798
+Qatar,1
+Russian Federation,2451
+Saint Barthélemy,1
+Saint Kitts and Nevis,4
+Saint Lucia,3
+San Marino,3
+Sao Tome and Principe,2449
+Saudi Arabia,4
+Seychelles,2799
+Singapore,3
+Sint Maarten (Dutch part),1
+Slovenia,3
+Somalia,3
+South Africa,3
+South Sudan,1
+Spain,3
+Sri Lanka,6
+Sudan,1
+Suriname,2452
+Svalbard and Jan Mayen,6
+Sweden,4
+Switzerland,4
+Syrian Arab Republic,12
+Thailand,1
+Togo,1
+Tokelau,2450
+Tonga,2449
+Tunisia,12
+Turkmenistan,6
+Turks and Caicos Islands,1
+Tuvalu,3
+Türkiye,3
+Uganda,3
+United Arab Emirates,6
+United States,4
+United States Minor Outlying Islands,1
+Uruguay,9
+Vanuatu,1
+"Venezuela, Bolivarian Republic of",6
+"Virgin Islands, British",1
+Yemen,2450
+Zimbabwe,3
+Åland Islands,3
