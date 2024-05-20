@@ -9,6 +9,10 @@ import pycountry
 from datetime import datetime
 import time
 
+# Author:
+# Date:
+# Email:
+
 # Function to log navigation events
 def log_navigation(ip_address, country, page, main_interest, device, additional_info=""):
     log_entry = {
